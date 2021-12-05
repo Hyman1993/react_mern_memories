@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
 // https://www.mongodb.com/cloud/atlas
-const CONNECTION_URL = "mongodb://peng:a5701582@localhost:27017/mern?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false";
+const CONNECTION_URL = "mongodb://root:a5701582@localhost:27017/mern?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL,{useNewUrlParser: true, useUnifiedTopology: true})
