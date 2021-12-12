@@ -7,7 +7,7 @@ import postRoutes from './routes/posts.js'
 const mongoose  = pkg;
 const app = express();
 
-//localhost://5000/posts
+//localhost://5000/posts => postRoutes
 app.use('/posts',postRoutes);
 
 app.use(bodyParser.json({limit: "30mb", extended: true}));
