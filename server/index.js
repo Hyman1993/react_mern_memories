@@ -7,12 +7,14 @@ import postRoutes from './routes/posts.js'
 const mongoose  = pkg;
 const app = express();
 
-//localhost://5000/posts => postRoutes
-app.use('/posts',postRoutes);
-
+// must to be set before API be called
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
+// allow all Same origin policy
 app.use(cors());
+
+//localhost://5000/posts => postRoutes
+app.use('/posts',postRoutes);
 
 // https://www.mongodb.com/cloud/atlas
 const CONNECTION_URL = "mongodb://root:a5701582@localhost:27017/mern?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false";
