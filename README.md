@@ -30,5 +30,5 @@ $ npm install
 $ npm start
 ```
 
-### TODO
+## TODO
 Will continue follow third part to add authentication related functionality.
