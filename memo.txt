@@ -1,0 +1,34 @@
+1. mongodb
+
+2.react前端如何发送请求到nodejs后端
+    key:使用axios库来发送请求,后端使用express库来映射请求路径对应的处理类
+      const url = 'http://localhost:5000/posts';
+      export const fetchPosts =  () => axios.get(url)
+
+3.react中...符号
+  扩展运算符（ spread ）
+  作用：将一个数组转为用逗号分隔的参数序列
+  例如：
+
+4.使用redux来做状态管理
+   api从nodejs后端访问成功后，用dispatch将结果转发到reducer管理器
+
+5.nodejs使用 express框架来做请求映射转发
+
+6.使用的UI组件
+  => @material-ui/core
+
+7.使用base64来上传下载图片
+   => 需要了解base64原理及实现
+
+8. react hooks
+   useState,useSelector,useStyles,useDispatch
+
+9. react lifeCircle
+
+10.react如何添加自定义css样式
+    可以使用useStyles钩子,然后在里面自定义class名和css样式,并将其作为className添加到组件上去。
+    =>多个className可以用拼接字符串实现
+
+11.flex布局
+   
