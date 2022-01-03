@@ -3,6 +3,14 @@ This app is based on react.js/nodejs and separated front end to back end.
 
 You can watch videos for this project from [YouTube](https://www.youtube.com/watch?v=ngc9gnGgUdA&list=PL2pqmgXLgByKHhVD0p96V-arwnhHVyj-9&index=6).
 
+# Tech Stack
+- React
+- JSX
+- MongoDB
+- Redux
+- Node.js
+- Express
+
 # Image
 Here is the image of this app.
 
